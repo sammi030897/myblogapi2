@@ -89,8 +89,5 @@ public class AuthController {
     	
         return  ResponseEntity.ok(response);
     }
-    @PostMapping("/logout")
-    public ResponseEntity<String> logout() {
-        return new ResponseEntity<>("Logged out successfully",HttpStatus.OK);
-    }
+   
 }
